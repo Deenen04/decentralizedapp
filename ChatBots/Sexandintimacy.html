@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sex and intimacy</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f5f5f5;
+        }
+
+        #customgpt_chat_container {
+            text-align: center;
+        }
+
+
+        #customgpt_chat {
+            width: 600px;
+            height: 700px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin: 0 auto; /* Center the chat bot */
+            position: relative;
+        }
+
+        #backButton {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="customgpt_chat_container">
+        <div id="customgpt_chat">
+            <button id="backButton" onclick="goBack()">Back</button>
+            <script src="https://cdn.customgpt.ai/js/embed.js" div_id="customgpt_chat" p_id="17501" p_key="66b2015bb11d3578f3d5728e3843e15e" width="100%" reset_conversation="1" height="100%"></script>
+        </div>
+    </div>
+    
+    <script>
+        function goBack() {
+            // You can replace the following line with the URL of the window you want to navigate back to
+            window.location.href = "https://htmlaime-igc9.vercel.app/";
+        }
+    </script>
+    
+
+</body>
+</html>
